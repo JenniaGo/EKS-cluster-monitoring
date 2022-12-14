@@ -1,6 +1,6 @@
 import boto3
 
-client = boto3.client('eks', region_name="eu-west-3")
+client = boto3.client('eks', region_name="eu-west-2")
 clusters = client.list_clusters()['clusters']
 
 for cluster in clusters:
