@@ -9,10 +9,10 @@ Create EKS cluster using Terraform and monitor kubernetes status (version, state
 clone repo and enter credentials in terraform/vpc.tf (can use file config or hardcoded keys adn token) and chose region
   
       provider "aws" {
-      region = "eu-west-2"
-      access_key = ""
-      secret_key = ""
-      token= ""
+        region = "eu-west-2"
+        access_key = ""
+        secret_key = ""
+        token= ""
       }
 
 ### Step two
