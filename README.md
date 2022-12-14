@@ -27,4 +27,7 @@ If all good and no errors - apply
 
 ### Step three
 Check your new eks cluster with the script
+
       python3 eks-get-status.py
+      
+done, now you can customize and schedule it for your use
